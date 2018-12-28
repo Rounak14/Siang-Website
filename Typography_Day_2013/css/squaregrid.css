@@ -1,0 +1,232 @@
+/* RESET CSS by http://meyerweb.com/eric/tools/css/reset/ */
+html {
+	overflow: -moz-scrollbars-vertical;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0;	font-size:100%; vertical-align:baseline; background:transparent;}
+
+
+body {
+	/*line-height:1;*/
+	}
+:focus {outline:0;} /* remember to define focus styles! */
+ins {text-decoration:none;} /* remember to highlight inserts somehow! */
+del {text-decoration:line-through;} 
+table {} /*  border-collapse:collapse; border-spacing:0; tables still need 'cellspacing="0"' in the markup */
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;} /* source: http://sonspring.com/journal/clearing-floats */
+
+/* BEGIN SQUARE GRID CODE */
+body {
+	background:url(../images/dot2.png);
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:1.5em;
+/* for RTL add: 'direction: rtl;' */ }
+
+/* your main wrapping div */
+#wrapper{ margin: 0 auto; position:relative; overflow: hidden; width: 885px;background: #fff; }
+#container{width:1008px; /* essential */ margin-left:0px;}
+
+#header {
+	background:url(../images/header.png) no-repeat;
+	height:150px;
+	margin:0 0 14px -4px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+#main_nav {
+	padding:-7px 0 0 0;
+	margin-top:-3px;
+	margin-left:9px;
+}
+
+#main_nav a{
+	
+	text-decoration:none;
+	color:#333;
+}
+	
+.nav_item {
+	height:23px;
+	border: dotted 1px #000;
+	margin: 7px 0 7px 0;
+	text-align: center;
+	padding:7px 0 0 0;
+
+}
+.nav_item_active {
+	height:23px;
+	border: dotted 1px #fff;
+	margin: 7px 0 7px 0;
+	text-align:center;
+	padding:7px 0 0 0;
+	background:#871321;
+	color:#fff;
+}
+
+.nav_item_active a{
+	text-decoration:none;
+	color:#fff;
+}
+#content {
+	margin-top:4px;
+}
+/*#content {
+	border-right:dotted 1px;
+	border-left:dotted 1px;
+	padding-left:5px;
+	padding-right:5px;
+}*/
+	
+#content h1 {
+	font-size:20px;
+	font-weight:400;
+	color: #9E302C ;
+	padding-bottom:7px;
+	border-bottom:dotted thin;
+}
+
+
+#content h2 {
+	font-size:16px;
+	font-weight:400;
+	color: #9E302C ;
+	padding-bottom:3px;
+	border-bottom:dotted thin;
+	margin-bottom:5px;
+}
+
+#content h5{
+	font-size:14px;
+	font-weight:400;
+}
+
+#content li{
+	margin-left:28px;
+}
+
+.aboutlist {
+	list-style-image:url(../images/bullet.png);
+}
+
+.aboutlist2 {
+	list-style-image:url(../images/bullet.png);
+	padding-left:20px;
+}
+
+#tablehead {
+	border-bottom:#000 thick;
+}
+#left_pane {
+	margin-top:8px;
+}
+.pane_item {
+	
+	/*background:url(../images/pane_bg_3.png) no-repeat;*/
+	background-color:#f3f1f1;
+	
+	/*-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;*/
+	/*border-top: #333 solid 27px;
+	margin-top:-20px;
+	padding-top:35px;
+	margin-top:-20px;*/
+	/*border-top: #333 solid 20px;*/
+}
+.pane_item ul{
+	padding: 8px 0 5px 0;
+}
+
+.pane_item li{
+	margin-left:7px;
+	line-height:1.8em;
+	list-style:none;
+	/*list-style-image:url(../images/bullet1.png);*/
+}
+
+.pane_item a{
+	color:#900;
+	text-decoration:none;
+}
+#updates {
+	/*border-top: #333 solid 27px;
+	margin-top:-20px;*/
+}
+
+#sponsors {
+	/*border-top: #333 solid 27px;
+	margin-top:-20px;*/
+}
+
+#social {
+	/*border-top: #333 solid 27px;
+	margin-top:-20px;*/
+}
+
+#social img{
+	height:28px;
+	width:28px;
+	
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+#social_icons {
+	padding-left:76px;
+	padding-top:10px;
+	margin-bottom:5px;
+	
+}
+
+#past {
+	/*border-top: #333 solid 27px;
+	margin-top:-20px;*/
+	
+}
+
+
+.pane_title {
+	width:188px;
+	float:left;
+	color:#fff;
+	margin-left:0px;
+	margin-top:-4px;
+	padding:3px 0px 3px 8px;
+	/*border:dotted 1.5px;*/
+	/*background-image:url(../images/dot2.png);*/
+	background:#871321;
+	
+}
+
+
+#footer {
+	border-top:dotted thin;
+	margin-top:28px;
+	padding:11px 0 0 0;
+	text-align:center;
+	margin-left:-40px;
+	font-size:11px;
+	color:#666;
+	
+	
+}
+
+
+
+/* global styling to apply to all columns */
+.sg-1, .sg-2, .sg-3, .sg-4, .sg-5, .sg-6, .sg-7, .sg-8, .sg-9, .sg-10, .sg-11, .sg-12, .sg-13, .sg-14, .sg-15, .sg-16, .sg-17, .sg-18, .sg-19, .sg-20, .sg-21, .sg-22, .sg-23, .sg-24, .sg-25, .sg-26, .sg-27, .sg-28, .sg-29, .sg-30, .sg-31, .sg-32, .sg-33, .sg-34, .sg-35
+{margin:0px 6px 14px 6px; float:left; /* for RTL change float to 'right' */ }
+
+/* if you want to have a div as a parent with divs inside - add this class to parent div */
+.sgParent{margin:0px;}
+
+/* essential: width for all columns */
+.sg-1{width:28px} .sg-2{width:56px} .sg-3{width:84px} .sg-4{width:112px} .sg-5{width:140px} .sg-6{width:168px} .sg-7{width:196px} .sg-8{width:224px} .sg-9{width:252px} .sg-10{width:280px} .sg-11{width:308px} .sg-12{width:336px} .sg-13{width:364px} .sg-14{width:392px} .sg-15{width:420px} .sg-16{width:448px} .sg-17{width:476px} .sg-18{width:504px} .sg-19{width:532px} .sg-20{width:560px} .sg-21{width:588px} .sg-22{width:616px} .sg-23{width:644px} .sg-24{width:672px} .sg-25{width:700px} .sg-26{width:728px} .sg-27{width:756px} .sg-28{width:784px} .sg-29{width:812px} .sg-30{width:840px} .sg-31{width:868px} .sg-32{width:896px} .sg-33{width:924px} .sg-34{width:952px} .sg-35{width:980px}
+
+/* add a dividing border to the right or left simply by addiing one of these classes to a div */
+.borderRight{border-right:1px solid #222; margin-right:0px; padding-right:13px;}
+.borderLeft  {border-left:1px solid #222; margin-left:0px; padding-left:13px;}
+
+

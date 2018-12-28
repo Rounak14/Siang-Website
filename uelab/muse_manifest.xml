@@ -1,0 +1,16 @@
+<manifest alg="2" build="2015.1.0.342" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="http://www.iitg.ac.in/design/uelab,http://www.iitg.ernet.in/design/uelab" resolutions="1x" timestamp="1493965659146">
+  <folder name="assets">
+    <file name="samplegif.gif" crc="137610747" seo="true" mt="1493965419000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="322691068" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index"/>
+    <file name="museutils.js" crc="4190794036" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.watch.js" crc="349565855" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4206387559" seo="true" mt="1493965615882" redirect="true"/>
+</manifest>
